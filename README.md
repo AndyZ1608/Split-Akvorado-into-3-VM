@@ -48,6 +48,10 @@ wget https://github.com/akvorado/akvorado/releases/download/v1.10.1/akvorado
 ```
 - Step 2: Config Akvorado
 ```
+chmod +x akvorado
+```
+
+```
 sudo mv akvorado_ac /etc/bash_completion.d/akvorado
 ```
 ```

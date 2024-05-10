@@ -2,8 +2,8 @@
 Part I:Install Kafka
 Step 1: Install Java 
 ```
-    nano /etc/hosts.deny
-    ```
-    ```
-    sshd : ALL
-    ```
+sudo apt update
+```
+```
+sudo apt install default-jre
+```

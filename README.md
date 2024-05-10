@@ -64,6 +64,16 @@ nano /etc/akvorado.yaml
 sudo mkdir /var/lib/akvorado
 sudo mkdir /usr/share/GeoIP
 ```
+```
+wget https://share.walrustech.org/GeoLite2-ASN.mmdb
+```
+```
+sudo mv GeoLite2-ASN.mmdb /usr/share/GeoIP/GeoLite2-ASN.mmdb
+```
+```
+sudo chown -R akvorado:akvorado /usr/share/GeoIP/
+```
+
 
 
 

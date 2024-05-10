@@ -1,5 +1,5 @@
-### Split-Akvorado-into-3-VM
-Part I: Install Kafka
+# Split-Akvorado-into-3-VM
+## Part I: Install Kafka
 - Step 1: Install Java 
 ```
 sudo apt update
@@ -41,6 +41,26 @@ Change this line<br>
 ```
 log.dirs=/usr/local/kafka/kafka-logs
 ```
-
+## Part III: Install Akvorado
+- Step 1: Install Akvorado
 ```
+wget https://github.com/akvorado/akvorado/releases/download/v1.10.1/akvorado
+```
+- Step 2: Config Akvorado
+```
+sudo mv akvorado_ac /etc/bash_completion.d/akvorado
+```
+```
+nano /etc/akvorado.yaml
+```
+```
+ sudo chown akvorado:akvorado /etc/akvorado.yaml
+```
+```
+sudo mkdir /var/lib/akvorado
+sudo mkdir /usr/share/GeoIP
+```
+
+
+
 

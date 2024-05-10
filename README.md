@@ -27,4 +27,11 @@ sudo mkdir /usr/local/kafka/tmp/zookeeper
 ```
 sudo chown kafka:kafka -R /usr/local/kafka
 ```
+```
+sudo nano /usr/local/kafka/config/zookeeper.properties
+```
+Add this line<br>
+```
+sudo nano /usr/local/kafka/config/server.properties
+```
 

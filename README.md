@@ -14,7 +14,7 @@ wget https://www.apache.org/dyn/closer.cgi?path=/kafka/3.7.0/kafka_2.13-3.7.0.tg
 ```
 tar -xzf kafka_2.13-3.7.0.tgz
 cd kafka_2.13-3.7.0
-'''
+```
 ```
 sudo mv kafka_*/ /usr/local/kafka
 ```

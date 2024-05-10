@@ -30,8 +30,17 @@ sudo chown kafka:kafka -R /usr/local/kafka
 ```
 sudo nano /usr/local/kafka/config/zookeeper.properties
 ```
-Add this line<br>
+Change this line<br>
+```
+dataDir=/usr/local/kafka/tmp/zookeeper
+```
 ```
 sudo nano /usr/local/kafka/config/server.properties
+```
+Change this line<br>
+```
+log.dirs=/usr/local/kafka/kafka-logs
+```
+
 ```
 

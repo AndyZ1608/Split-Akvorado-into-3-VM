@@ -24,3 +24,7 @@ sudo chown kafka:kafka -R /usr/local/kafka
 ```
 sudo mkdir /usr/local/kafka/tmp/zookeeper
 ```
+```
+sudo chown kafka:kafka -R /usr/local/kafka
+```
+

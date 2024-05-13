@@ -50,16 +50,18 @@ wget https://github.com/akvorado/akvorado/releases/download/v1.10.1/akvorado
 ```
 chmod +x akvorado
 ```
+Create a user for Akvorado<br>
+```
+sudo useradd -r -s /bin/false akvorado
 
+```
 ```
 sudo mv akvorado_ac /etc/bash_completion.d/akvorado
 ```
 ```
 nano /etc/akvorado.yaml
 ```
-```
  sudo chown akvorado:akvorado /etc/akvorado.yaml
-```
 ```
 sudo mkdir /var/lib/akvorado
 sudo mkdir /usr/share/GeoIP

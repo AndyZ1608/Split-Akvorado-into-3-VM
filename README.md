@@ -53,7 +53,6 @@ chmod +x akvorado
 Create a user for Akvorado<br>
 ```
 sudo useradd -r -s /bin/false akvorado
-
 ```
 ```
 sudo mv akvorado_ac /etc/bash_completion.d/akvorado
@@ -61,7 +60,13 @@ sudo mv akvorado_ac /etc/bash_completion.d/akvorado
 ```
 nano /etc/akvorado.yaml
 ```
- sudo chown akvorado:akvorado /etc/akvorado.yaml
+```
+sudo chown akvorado:akvorado /etc/akvorado.yaml
+```
+```
+sudo touch /var/lib/akvorado/console.sqlite
+```
+
 ```
 sudo mkdir /var/lib/akvorado
 sudo mkdir /usr/share/GeoIP

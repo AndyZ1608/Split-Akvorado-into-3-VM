@@ -57,6 +57,7 @@ sudo useradd -r -s /bin/false akvorado
 ```
 sudo mv akvorado_ac /etc/bash_completion.d/akvorado
 ```
+Create akvorado.yaml and config
 ```
 nano /etc/akvorado.yaml
 ```
